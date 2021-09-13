@@ -1,16 +1,30 @@
 <html>
+    <body style="background-color:rgb(228, 220, 252);"> 
+      
 <head>
 
     </head>
+    
    <style>
+    img.center {
+        display: block;
+        margin: 0 auto;
+    }        
+
        h1{
        color:pink;  
        font-size: larger;  
        font-family: fantasy;
+       text-align: center;
        
        }
+
+       h2{
+           margin: 0 auto;
+           display:block;
+       }
        p {
-        color:powderblue;
+        color:black;
         font-family:sans-serif;   
         font-size: medium;
         font-variant: normal;
@@ -18,40 +32,48 @@
 
        }
        #header{
-           font-size: x-large;
-           text-indent:25%;
+        font-family: Arial, sans-serif; 
+        font-size: xxx-large;
+    text-align: center;
        }
+
+       ul { display: inline-block; }
 .intro {
     font-size: large;
     font-weight: normal;
-    text-indent: 0%;
+    text-align: center;
    
 }
-.pem1{
-    color:rgb(233, 77, 77)
+.pem1 {
+    color:rgb(233, 77, 77);
     font-style: italic;
     font-family: cursive;
     font-size: medium;
-    text-indent: 25%;
+    text-align:center;
 }
 .pop1{
     color:black;
-    font-size: xx-large;
-    font-family:fantasy;
-    flex-grow: inherit;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
 }
 .cookietro{
     color:rgb(233, 77, 77);
 font-size: x-large;
 font-stretch: extra-expanded;
 font-variant-position: initial;
+text-align: center;
 
 }
+.cookie2{
+
+text-align: center;
+
+}
+
 .cookielist{
     list-style-type: lower-roman;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-text-indent: 0mm;
-
 }
 .links{
     color:palevioletred;
@@ -73,7 +95,8 @@ font-weight: bolder;
     font-weight: lighter;
     font-size: smaller;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-lighting-color: pink;
+    color: black;
+    
 
 }
 .image{
@@ -88,9 +111,12 @@ lighting-color: pink;
     font-family: Arial, Helvetica, sans-serif;
  
 }
+ 
   </style> 
    <body>
-       <h1 id="header">Ode To Cookies and Popcorn
+   
+   
+       <h1 id="header" >Ode To Cookies and Popcorn</h1>
            <p class="intro"> In life, there are not many things more comforting than cookies and popcorn. I wanted to make a little website to show my appreciation for these things.</p>
            <p class="pem1">Ode to popcorn </p>
            <p class="pem1">Oh, you who pop so well my friend, </p>
@@ -99,44 +125,69 @@ lighting-color: pink;
            <p class= "pem1">I get home to smell your sweet aroma</p>
             <p class= "pem1">of comfort and salt with a hint of warmth</p>
            
-            <h2 class= "pop1">popcorn</h2>
-            <img src="https://www.simplyrecipes.com/thmb/XXzwtBAeTcGW8Oe9XfE0gVqFT4E=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2015__01__perfect-popcorn-vertical-a-1800-514a1e08c57e415aa880937b77472b48.jpg" alt="W3Schools.com"> 
-           <p >
-            <a class="links" href="http://amazon.com"> Get Popcorn Here!</a>
+            <h2 class= "pop1">Get Popcorn Here!</h2>
            
+            <img  class="center" src="https://i2.wp.com/www.twosisterscrafting.com/wp-content/uploads/2016/01/perfect-stovetop-popcorn-1200-main.jpg" alt="popcorn" usemap="#workmap" width="400" height="379">
+
+            <map name="workmap">
+              <area shape="circle" coords="34,44,270,350" alt="popcorn" href="https://opopop.com/?gclid=CjwKCAjw7fuJBhBdEiwA2lLMYYhaWqJODyRA7IDRU3BlOfYzuHpsOhmZ4Ppct1kaHf6XfSsw2abJLhoCiQwQAvD_BwE" target = "newtab">
+            
+            </map> 
+           
+                          
     
        </h1>
        <h2 class="header2">
            <p class="cookietro"> Cookies Are The Best Comfort Food. Change My Mind.</p>
-           <p> I have seldom had a problem in life that could not be solved, at least in part, by a cookie.</p>
-           <p> My Favorite Cookies are:</p>
+           <p class="cookie2"> I have seldom had a problem in life that could not be solved, at least in part, by a cookie.</p>
+           <p class="cookie2"> My Favorite Cookies are:</p>
         
             <ol>
-                <li class= "cookielist" >Chocolate Chip</li> 
-                <img class="image" src="https://cravinghomecooked.com/wp-content/uploads/2019/08/chocolate-chip-cookies-1-14.jpg" alt="https://cravinghomecooked.com/chocolate-chip-cookies/"> 
-<a class="links" href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">Best Chocolate Chip Cookie Recipe</a>
-         
- <li class= "cookielist" >Sugar, but only with frosting</li>
- <img class="image" src="https://i.etsystatic.com/13094383/r/il/552d7f/2264800079/il_1588xN.2264800079_6f6v.jpg" alt="https://www.etsy.com/listing/770848137/green-child-holding-things-cookies-1?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_a-home_and_living-food_and_drink-baked_goods-cookies&utm_custom1=_k_Cj0KCQjw4eaJBhDMARIsANhrQAC2R7eKffAZg_9F730w6mKtdq0mSCFHMsXKDn0NBfDaZT77wJWltA8aAjAOEALw_wcB_k_&utm_content=go_12570712527_123240179447_507395012527_pla-306097968659_c__770848137_128776799&utm_custom2=12570712527&gclid=Cj0KCQjw4eaJBhDMARIsANhrQAC2R7eKffAZg_9F730w6mKtdq0mSCFHMsXKDn0NBfDaZT77wJWltA8aAjAOEALw_wcB">
-              <a class="links" href="https://www.spoonfulofflavor.com/royal-iced-sugar-cookies/">Best Sugar Cookie Recipe</a>
-           
-              <p class= "cookienote"  >*A Quick Note Here: Sugar Cookies Without Frosting Are Boring.</p>
-              <p class= "cookienote">There is no point.</p>
-              <p class= "cookienote">Why put the time into making them and NOT shaping?</p>
-              <p class= " cookienote">It also tastes better</p>
 
-              <li >White Chocolate Macadamia</li>
-              <img class="image" src="https://www.thirtyhandmadedays.com/wp-content/uploads/2012/10/macadamianutcookieshorizontal.jpg" alt="https://www.thirtyhandmadedays.com/white_chocolate_macadamia_cookies/">
-            <a class="links" href="https://www.allrecipes.com/recipe/10025/white-chocolate-macadamia-nut-cookies-iii/">Best WCMC Recipe</a>
-<p>PRO TIP: Serve with a cup of Hot Cocao for best taste</p>
+
+
+
+             <ul>
+                <li class= "cookielist" >Chocolate Chip</li> 
+
+         
+                    <img src="https://cravinghomecooked.com/wp-content/uploads/2019/08/chocolate-chip-cookies-1-14.jpg" alt="https://cravinghomecooked.com/chocolate-chip-cookies/" usemap="#workmap2" width="400" height="379">
+
+                                <map name="workmap2">
+                                    <area shape="circle" coords="34,44,270,350" alt="cookie" href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/" target = "newtab">
+                                    
+                                </map> 
+
+                <li class= "cookielist" >Sugar, but only with frosting</li>
+
     
+                    <img src="https://i.etsystatic.com/13094383/r/il/552d7f/2264800079/il_1588xN.2264800079_6f6v.jpg" alt="https://www.etsy.com/listing/770848137/green" usemap="#workmap3" width="400" height="379">
+
+                            <map name="workmap3">
+                                <area shape="circle" coords="34,44,270,350" alt="cookie" href="https://www.spoonfulofflavor.com/royal-iced-sugar-cookies/" target = "newtab">
+                                
+                            </map>        
+                <p class= "cookienote"  >*A Quick Note Here: Sugar Cookies Without Frosting Are Boring.</p>
+                <p class= "cookienote">There is no point.</p>
+                <p class= "cookienote">Why put the time into making them and NOT shaping?</p>
+                <p class= " cookienote">It also tastes better</p>
+
+                <li class="cookielist" >White Chocolate Macadamia</li>
+            
+
+                    <img src="https://www.thirtyhandmadedays.com/wp-content/uploads/2012/10/macadamianutcookieshorizontal.jpg" alt="chomaccookie" usemap="#workmap4" width="400" height="379">
+
+                                <map name="workmap4">
+                                    <area shape="circle" coords="34,44,270,350" alt="cookie" href="https://www.allrecipes.com/recipe/10025/white-chocolate-macadamia-nut-cookies-iii/" target = "newtab">
+                                    
+                                </map> 
+                                <p>PRO TIP: Serve with a cup of Hot Cocao for best taste</p>
+
+             </ul>
+
+
 </h2>
+
    </body>
 </html>
-echo "# liki7211.github.io-ode-to-things" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/liki7211/liki7211.github.io-ode-to-things.git
-git push -u origin main
+
